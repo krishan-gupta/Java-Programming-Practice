@@ -14,14 +14,16 @@ public class variableDeclaration {
         float price = 10.99f;
         char character = 'A';
         boolean isEligible = false;
-
+        System.out.println(price);
+        System.out.println(character);
+        System.out.println(isEligible);
         // reference variables
         Date now = new Date();
         System.out.println(now);
 
         Point point1 = new Point(1, 1);
         Point point2 = point1;
-
+        System.out.println(point2);
         String message = new String("Hello World");
         System.out.println(message);
 
